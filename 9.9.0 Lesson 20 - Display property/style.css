@@ -1,0 +1,13 @@
+div {
+    background-color: hsl(0, 63%, 70%);
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+
+span {
+    background-color: rgb(96, 96, 214);
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
