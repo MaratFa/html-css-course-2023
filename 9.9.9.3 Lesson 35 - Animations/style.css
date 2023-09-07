@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(219, 219, 219);
+}
+
+img {
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-timing-function: cubic-bezier(1,-0.87, 0, 1.46)
+}
+
+#box {
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+    background-color: red;
+    font-size: 13em;
+    text-align: center;
+}
+
+#box:hover {}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(100%)
+    }
+}
+
+@keyframes slideRight {
+    to {
+        transform: translateX(100%)
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%)
+    }
+}
+
+@keyframes slideDown {
+    to {
+        transform: translateY(100%)
+    }
+}
+
+@keyframes rotate {
+    25% {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes grow {
+    50% {
+        transform: scale(2, 2);
+    }
+}
+
+@keyframes shrink {
+    50% {
+        transform: scale(0.5, 0.5);
+    }
+}
+
+@keyframes fadeIn {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: red;
+    }
+
+    20% {
+        background-color: orange;
+    }
+
+    40% {
+        background-color: yellow;
+    }
+
+    60% {
+        background-color: green;
+    }
+
+    80% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: purple;
+    }
+}
+
+@keyframes glow {
+    50% {
+        box-shadow: 0px 0px 50px yellow
+    }
+}
