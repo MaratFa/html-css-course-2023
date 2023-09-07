@@ -1,0 +1,7 @@
+body {
+    margin: 20px;
+}
+
+img{
+    transform: translateX(100%) rotateZ(8deg) scaleX(2) skew(10deg, 10deg);
+}
